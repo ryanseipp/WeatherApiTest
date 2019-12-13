@@ -27,3 +27,10 @@ curl http://localhost:5000/WeatherForecast
 // returns current weather information for Pittsburgh, PA. Adapt as you see fit.
 curl http://localhost:5000/WeatherForecast/City?City="Pittsburgh"&State="PA"
 ```
+
+### Projects used within this proof of concept
+* [DarkSkyCore](https://github.com/amweiss/dark-sky-core)
+* [GoogleApi](https://github.com/vivet/GoogleApi)
+
+### Things to improve upon
+We need to be able to inject our GoogleApi and DarkSky API keys before using them. This is currently done through Autofac DI, but doesn't feel great. Need to find a better solution to either isolate key injection from user-secrets/configuration, or create/discover a more robust DI solution for GoogleApi that supports key injection.
