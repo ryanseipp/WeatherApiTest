@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_WeatherApiTest.-199925818.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="Configuration" t="Include">
+        <e p="AppConfiguration.cs" t="Include" />
+        <e p="DarkSkyOptions.cs" t="Include" />
+        <e p="GoogleApiOptions.cs" t="Include" />
+        <e p="IoC" t="Include">
+          <e p="GoogleApiModule.cs" t="Include" />
+          <e p="IWeatherService.cs" t="Include" />
+          <e p="WeatherModule.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="RequestHandlers" t="Include">
+          <e p="GetCityForecast" t="Include">
+            <e p="GetCityForecastRequest.cs" t="Include" />
+            <e p="GetCityForecastRequestHandler.cs" t="Include" />
+            <e p="GetCityForecastRequestModel.cs" t="Include" />
+          </e>
+          <e p="GetWeatherForecast" t="Include">
+            <e p="GetWeatherForecastRequest.cs" t="Include" />
+            <e p="GetWeatherForecastRequestHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="WeatherApiTest.csproj" t="IncludeRecursive" />
+      <e p="WeatherApiTest.sln" t="IncludeFlat" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="WeatherApiTest.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
